@@ -219,7 +219,7 @@ CAP = ParagraphStyle("CAP", parent=styles["Normal"], fontSize=8.5, textColor=col
 BULLET = ParagraphStyle("BULLET", parent=BODY, leftIndent=14, bulletIndent=2, spaceAfter=3)
 
 story = []
-story.append(Paragraph("Anmol Singh , Roll No. 2301921540030 , CSDS-1", H3))
+story.append(Paragraph("Analyzed by Anmol Singh", H3))
 story.append(Paragraph("Energy Consumption Trend Analysis", H1))
 story.append(Paragraph(f"AEP Hourly Demand &middot; {stats['start']:%b %Y} – {stats['end']:%b %Y} &middot; {stats['rows']:,} hourly observations", SUB))
 
