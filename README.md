@@ -32,3 +32,11 @@ It also generates visual insights and an automated PDF report for better energy 
 ```bash
 pip install pandas numpy matplotlib reportlab
 python energy_analysis.py
+```
+
+## Output
+This project generates a detailed PDF report with insights and visualizations.
+
+Run the script to generate:
+- Charts
+- Energy Consumption Report (PDF)
